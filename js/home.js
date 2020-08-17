@@ -221,19 +221,19 @@ function videoStatus(){
 const reviews = [
   {
     id: 1,
-    name: "susan smith",
-    job: "web developer",
+    name: "Ovi Mitra",
+    job: "Game Developer",
     img:
-      "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg",
+      "https://scontent.fcgp6-1.fna.fbcdn.net/v/t1.0-9/59211545_2342289952481405_1326453756916662272_n.jpg?_nc_cat=108&_nc_sid=174925&_nc_eui2=AeHp-HPfU0RPVHXJBCsFEBK9jv8Zf5eShcWO_xl_l5KFxSXMcXwlcltkjU85cOqQC7sbb1_RS3ttBooFxPK7J3W_&_nc_ohc=AvozukLAI4kAX-hT13l&_nc_ht=scontent.fcgp6-1.fna&oh=53e06996a4e81bbc368f5071cd6b5962&oe=5F625DCF",
     text:
       "I'm baby meggings twee health goth +1. Bicycle rights tumeric chartreuse before they sold out chambray pop-up. Shaman humblebrag pickled coloring book salvia hoodie, cold-pressed four dollar toast everyday carry",
   },
   {
     id: 2,
-    name: "anna johnson",
+    name: "Tutul Das",
     job: "web designer",
     img:
-      "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883409/person-2_np9x5l.jpg",
+      "https://scontent.fcgp6-1.fna.fbcdn.net/v/t1.0-9/22448664_1944099662511267_27249712594668349_n.jpg?_nc_cat=102&_nc_sid=0debeb&_nc_eui2=AeGaJJV0X6XKhji76fqRRGBxp3rJU4j_09OneslTiP_T04YUK4-Ud6exVpkxUdelTFZOvQKhWIkOUNDzHHgGfTSj&_nc_ohc=bX7EB16acv4AX_Nmvoj&_nc_ht=scontent.fcgp6-1.fna&oh=9a86e82b0579640160471520f4b8aff9&oe=5F5FA4F1",
     text:
       "Helvetica artisan kinfolk thundercats lumbersexual blue bottle. Disrupt glossier gastropub deep v vice franzen hell of brooklyn twee enamel pin fashion axe.photo booth jean shorts artisan narwhal.",
   },
