@@ -1,0 +1,170 @@
+/* below code is navigation */
+@media screen and (min-width:800px) {
+  nav {
+    background: #fff;
+  }
+
+  .nav-center {
+    width: 90vw;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-header {
+    padding: 0;
+  }
+
+  .nav-toggle {
+    display: none;
+  }
+
+  .nav-links {
+    height: auto !important;
+  }
+
+  .links {
+    display: flex;
+  }
+
+  .links li a {
+    background: transparent;
+    text-decoration: none;
+    color: #000;
+    font-size: 1.1rem;
+    letter-spacing: 0.3rem;
+    display: block;
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+    margin: 0 1rem;
+    font-weight: bold;
+    padding: 0;
+
+  }
+
+  .links li a:hover {
+    padding-left: 0;
+  }
+
+  .nav-links {
+    margin-top: 0;
+  }
+}
+
+/* slide code below */
+@media screen and (min-width: 576px) {
+  .slider-container {
+    height: 45vh;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .slider-container {
+    height: 55vh;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .slider-container {
+    height: 65vh;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1215px) {
+  .img-fluid {
+    width: 20rem;
+  }
+
+  .menu-contain {
+    grid-template-columns: 1fr;
+  }
+
+  .review-contain {
+    width: 60vw;
+  }
+}
+
+@media only screen and (max-width: 1024px) {}
+
+
+
+@media only screen and (max-width: 992px) {
+  .item-column {
+    grid-template-columns: 1fr;
+  }
+  .blog-post-container{
+     grid-template-columns:1fr;
+  }
+  .popular-content a{
+    font-size:1.5rem;
+ }
+ .about-container{
+    grid-template-columns: 1fr;
+ }
+}
+
+@media only screen and (max-width: 768px) {
+  .menu-contain {
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+
+  .menu-item {
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 2rem;
+
+  }
+
+  .img-fluid {
+    width: 30rem;
+    margin: 0 auto;
+  }
+
+  .menu-info header,
+  .text {
+    margin: 0 5rem;
+    padding-top: 1rem;
+  }
+  .review-contain {
+    width: 80vw;
+  }
+  html{
+    font-size:90%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+
+  .menu-info header,
+  .text {
+    margin: 0rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .review-contain {
+    width: 100vw;
+  }
+}

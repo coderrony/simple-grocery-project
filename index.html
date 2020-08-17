@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./vendors/progress.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <title>Grocery Shop</title>
+</head>
+<body>
+     
+    <nav id="nav">
+         <div class="nav-center">
+            <div class="nav-header">
+                <h2 class="logo">GROCERY </h2>
+                <button class="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                  </button>
+            </div>
+            <div class="nav-links">
+                <ul class="links">
+                  <li><a href="index.html">HOME</a></li>
+                  <li><a href="blog.html">BLOG</a></li>
+                  <li><a href="about.html">ABOUT</a></li>
+                  <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+         </div>
+    </nav>
+<!-- above code is navigation -->
+  <!-- slider section start -->
+    <div class="slider-container" id="slide">
+       <div class="slide">
+           <img src="./img/lg/lg1.jpg" class="slide-img1" alt="">
+     
+       </div>
+       <div class="slide">
+        <img src="./img/lg/lg2.jpg" class="slide-img2" alt="">
+       
+       </div>
+       <div class="slide">
+        <img src="./img/lg/lg3.jpg" class="slide-img3" alt="">
+       </div>
+       <div class="slide">
+           <img src="./img/lg/lg4.jpg" class="slide-img4" alt="">
+         
+       </div>
+    </div>
+    <div class="btn-container">
+      <button type="button" class="prevBtn">Prev</button>
+      <button type="button" class="nextBtn">Next</button>
+    </div>
+  <!-- slider section end -->
+  <!-- menu section start -->
+        <section class="section">
+            <div class="">
+              <div class="menu-title">
+                <h2>Our Grocery Menu</h2>
+                <div class="underline"></div>
+              </div>
+                <div class="btn-container">
+                    <button type="button" class="btn btn-menu" data-id="all">All</button>
+                    <button type="button" class="btn btn-menu" data-id="vegetable">Vegetable</button>
+                    <button type="button" class="btn btn-menu" data-id="weekly">Weekly</button>
+                    <button type="button" class="btn btn-menu" data-id="healthy">Healthy</button>
+                    <button type="button" class="btn btn-menu" data-id="plan">Plan</button>
+                </div>
+                <div class="menu-contain">
+                   <div class="menu-item"> 
+                    <img class="img-fluid" src="./img/lg/lg2.jpg" alt="">
+                    <div class="menu-info">
+                       <header>
+                          <h4>Diner Double</h4>
+                          <h3>$13.99</h3>
+                       </header>
+                       <p class="text">vaporware iPhone mumblecore selvage raw denim slow-carb leggings gochujang helvetica man braid jianbing. Marfa thundercats</p>
+                    </div>
+                   </div>
+                   <div class="menu-item">
+                    <img class="img-fluid" src="./img/lg/lg3.jpg" alt="">
+                    <div class="menu-info">
+                       <header>
+                          <h4>Diner Double</h4>
+                          <h3>$13.99</h3>
+                       </header>
+                       <p class="text">vaporware iPhone mumblecore selvage raw denim slow-carb leggings gochujang helvetica man braid jianbing. Marfa thundercats</p>
+                    </div>
+                   </div>
+                </div>
+            </div>
+        </section>
+  <!-- menu section end -->
+  <!-- video section start -->
+     <section class="section row">
+          <div class="item-column">
+             <div class="video-txt">
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, rerum!</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe exercitationem magni reiciendis quod nisi excepturi dolorum! Doloribus quod necessitatibus minima obcaecati harum accusamus odio excepturi? Temporibus doloremque nemo mollitia, nulla, eius magnam dignissimos deleniti saepe alias dolore, voluptates veritatis iste quisquam aliquam animi inventore velit nihil nostrum id facere omnis earum reiciendis! Dolores magni possimus nisi maiores nobis, temporibus mollitia.</p>
+                 <a href="#" class="btn video-btn">Order Now</a>
+             </div>
+             <div class="vide-container">
+                 <video src="./video/gone.mp4" poster="./video/poster.png"  loop id="video"></video>
+
+                 <div class="video-controls">
+                  <button  id="play"><i class="fa fa-play fa-2x"></i></button>
+                  <button  id="stop"><i class="fa fa-stop fa-2x"></i></button>
+        
+                  <input type="range" id="progress" class="progress" min="0" max="100" step="0.1" value="0">
+                 <span class="timestamp" id="timestamp">00:00</span>
+                 </div>
+             </div>
+          </div>
+     </section>
+  <!-- video section end -->
+  <!-- review section start -->
+  <section class="section">
+      <div class="row">
+          <div class="review">
+              <div class="review-title">
+                <h2>Review From Consumer</h2>
+                <div class="underline"></div>
+              </div>
+              <div class="review-contain">
+                   <div>
+                      <img src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="review-img" id="img-rev">
+                   </div>
+                   <div class="review-info">
+                        <h3 id="author">Susan Smith</h3>
+                        <h4 id="job">WEB DEVELOPER</h4>
+                        <p id="desc">I'm baby meggings twee health goth +1. Bicycle rights tumeric chartreuse before they sold out chambray pop-up. Shaman humblebrag pickled coloring book salvia hoodie, cold-pressed four dollar toast everyday carry</p>
+                        <div class="review-btns">
+                           <button id="prev-review" type="button">
+                            <i class="fas fa-chevron-left"></i>
+                           </button>
+                           <button id="next-review" type="button">
+                            <i class="fas fa-chevron-right"></i>
+                           </button>
+                        </div>
+                        <button class="btn random-review" id="random-btn" >Surprise Me</button>
+                   </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- review section end -->
+<!-- below code is footer -->
+      <footer class="footer">
+        <p>
+          copyright &copy; coderrony company
+          <span id="date"></span>. all rights reserved
+        </p>
+      </footer>
+      <a class=" top-link" href="#slide">
+        <i class="fas fa-arrow-up "></i>
+      </a>
+    <script src="https://kit.fontawesome.com/b99cc3b6f3.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script src="js/home.js"></script>
+   
+</body>
+</html>
